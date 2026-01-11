@@ -16,7 +16,7 @@ export default function Hero() {
                     <div className={styles.meta}>
                         <span>3+ Years Experience</span>
                         <span className={styles.separator}>•</span>
-                        <span>Based in Tanzania</span>
+                        <span>Dar es Salaam, Tanzania</span>
                         <span className={styles.separator}>•</span>
                         <span>Available for freelance</span>
                     </div>

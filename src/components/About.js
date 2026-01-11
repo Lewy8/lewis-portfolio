@@ -17,7 +17,7 @@ export default function About() {
                             <div className={styles.divider}></div>
                             <p className={styles.bio}>
                                 I'm a highly dedicated Full Stack Developer with over 3 years of experience and a passion for cloud technologies.
-                                While based in Tanzania, I'm open to opportunities anywhere in the world. I combine technical expertise with strong problem-solving skills
+                                Based in Dar es Salaam, Tanzania, I combine technical expertise with strong problem-solving skills
                                 to build robust web and mobile applications. My background includes developing financial systems
                                 like the CRDB Kilimo loan app and optimizing digital platforms for performance.
                             </p>
