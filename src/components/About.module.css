@@ -113,6 +113,12 @@
         gap: var(--space-xl);
     }
 
+    .imageColumn {
+        position: static;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
     .intro {
         position: static;
     }

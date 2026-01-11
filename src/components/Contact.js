@@ -22,7 +22,7 @@ export default function Contact() {
                         </a>
                         <div className={styles.link}>
                             <span className={styles.label}>Location</span>
-                            <span className={styles.value}>Kigamboni, Dar es Salaam</span>
+                            <span className={styles.value}>Tanzania (Open to Relocation)</span>
                         </div>
                     </div>
                 </div>
