@@ -14,6 +14,12 @@ const projects = [
         category: "Mobile"
     },
     {
+        title: "Website Uptime Monitor",
+        tech: ["Laravel", "Flutter", "RESTful API", "Cron Jobs"],
+        description: "Real-time infrastructure monitoring solution. Tracks website availability and performance, triggering instant alerts for downtime via a cross-platform mobile app.",
+        category: "Full-Stack"
+    },
+    {
         title: "CRDB Loan Management System",
         tech: ["Spring Boot", "Next.js", "GraphQL", "PostgreSQL"],
         description: "Enterprise-level loan management solution for CRDB Bank (Kilimo & Wezesha), streamlining loan processing for farmers and government-supported groups.",
