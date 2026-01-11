@@ -35,6 +35,15 @@ export default function About() {
                             </div>
 
                             <div className={styles.block}>
+                                <h3>What I Do</h3>
+                                <p>
+                                    I help companies establish a powerful digital presence. Whether you need a
+                                    <strong> high-converting landing page</strong>, a <strong>custom corporate website</strong>,
+                                    or a complex <strong>web/mobile application</strong>, I deliver solutions that drive growth.
+                                </p>
+                            </div>
+
+                            <div className={styles.block}>
                                 <h3>Education</h3>
                                 <div className={styles.education}>
                                     <div>

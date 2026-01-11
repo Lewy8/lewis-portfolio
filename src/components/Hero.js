@@ -10,7 +10,7 @@ export default function Hero() {
                         Lewis<br />Nhuguti
                     </h1>
                     <p className={styles.description}>
-                        Crafting seamless digital experiences through modern web and mobile applications.
+                        Crafting seamless digital experiences through modern web and mobile applications. Plus, building high-impact websites, landing pages for businesses.
                         Specialized in React, Next.js, Laravel, and Flutter.
                     </p>
                     <div className={styles.meta}>
