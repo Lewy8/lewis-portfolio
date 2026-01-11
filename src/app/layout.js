@@ -9,7 +9,7 @@ export const metadata = {
   description: "Portfolio of Lewis Nhuguti, a Full-Stack Developer specializing in React, Next.js, Laravel, and Mobile Apps.",
   icons: {
     icon: [
-      { url: '/favicon/favicon.ico' },
+      { url: '/favicon.ico' },
       { url: '/favicon/favicon.svg', type: 'image/svg+xml' },
     ],
     apple: [
