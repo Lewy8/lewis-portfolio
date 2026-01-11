@@ -1,0 +1,92 @@
+.about {
+    background: var(--surface);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: var(--space-3xl);
+    align-items: start;
+}
+
+.intro {
+    position: sticky;
+    top: var(--space-xl);
+}
+
+.lead {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-top: var(--space-lg);
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2xl);
+}
+
+.block h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    margin-bottom: var(--space-md);
+    font-weight: 500;
+}
+
+.block p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: var(--space-lg);
+    background: var(--surface-elevated);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    transition: border-color 0.3s ease;
+}
+
+.education:hover {
+    border-color: var(--text-muted);
+}
+
+.degree {
+    font-size: 1rem;
+    color: var(--text-primary);
+    margin-bottom: var(--space-xs);
+    font-weight: 400;
+}
+
+.school {
+    color: var(--text-secondary);
+    font-size: 0.9375rem;
+}
+
+.date {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    font-family: var(--font-mono);
+    white-space: nowrap;
+}
+
+@media (max-width: 968px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-xl);
+    }
+
+    .intro {
+        position: static;
+    }
+
+    .education {
+        flex-direction: column;
+        gap: var(--space-md);
+    }
+}
